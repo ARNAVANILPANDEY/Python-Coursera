@@ -7,4 +7,4 @@ for line in hand:
         c=c+1
         q=q+float(line[line.find(' '):].strip())
 
-print("Average spam confidence:",(q/c))
+print("Average spam confdence:",(q/c))
