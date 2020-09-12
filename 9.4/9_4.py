@@ -7,12 +7,13 @@ for line in hand:
     if(line.startswith('From ')):
         counts[line.split()[1]]=counts.get(line.split()[1],0)+1
 
-for k,v in counts.items():
+'''for k,v in counts.items():
     if(bc is None or v>bc):
         bc=v
         bn=k
 
-print(bn,bc)
+print(bn,bc)'''
+print(counts)
     
 
 
